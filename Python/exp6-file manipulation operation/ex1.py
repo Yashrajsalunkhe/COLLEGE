@@ -1,0 +1,5 @@
+file = open('geek.txt', 'w')
+file.write("This is the write command ")
+file.write("It allows you to write in a file")
+print("Successfully wrote data to the file")
+file.close()
